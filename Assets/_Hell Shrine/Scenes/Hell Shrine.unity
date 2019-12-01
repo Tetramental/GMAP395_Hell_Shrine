@@ -133,7 +133,6 @@ GameObject:
   - component: {fileID: 14779103}
   - component: {fileID: 14779102}
   - component: {fileID: 14779105}
-  - component: {fileID: 14779106}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -189,7 +188,7 @@ Camera:
   m_AllowMSAA: 0
   m_AllowDynamicResolution: 0
   m_ForceIntoRT: 0
-  m_OcclusionCulling: 1
+  m_OcclusionCulling: 0
   m_StereoConvergence: 10
   m_StereoSeparation: 0.022
 --- !u!4 &14779104
@@ -305,23 +304,6 @@ MonoBehaviour:
       enableFptlForForwardOpaque: 0
       enableBigTilePrepass: 0
       isFptlEnabled: 0
---- !u!114 &14779106
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 14779101}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 618b0e3f6c65dd247a4a016150006c57, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_LookSpeedController: 120
-  m_LookSpeedMouse: 10
-  m_MoveSpeed: 10
-  m_MoveSpeedIncrement: 2.5
-  m_Turbo: 10
 --- !u!1001 &242203648
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -558,13 +540,13 @@ GameObject:
   - component: {fileID: 316584123}
   - component: {fileID: 316584122}
   - component: {fileID: 316584121}
-  m_Layer: 0
+  m_Layer: 1
   m_Name: Fog
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!73398921 &316584121
 VFXRenderer:
   m_ObjectHideFlags: 2
@@ -572,7 +554,7 @@ VFXRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 316584120}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 0
   m_ReceiveShadows: 0
   m_DynamicOccludee: 1
@@ -580,7 +562,7 @@ VFXRenderer:
   m_LightProbeUsage: 0
   m_ReflectionProbeUsage: 0
   m_RenderingLayerMask: 1
-  m_RendererPriority: 0
+  m_RendererPriority: 5
   m_Materials:
   - {fileID: 0}
   m_StaticBatchInfo:
@@ -648,7 +630,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 316584120}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -11.6, y: 5.52, z: -17.94}
+  m_LocalPosition: {x: 17.4, y: 6, z: -0.1}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -1990,7 +1972,7 @@ PrefabInstance:
     - target: {fileID: 5393139662808433793, guid: bfad80f14dad6a546a7191dbe03fc7f7,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.27000046
+      value: -0.45
       objectReference: {fileID: 0}
     - target: {fileID: 5393139662808433793, guid: bfad80f14dad6a546a7191dbe03fc7f7,
         type: 3}
