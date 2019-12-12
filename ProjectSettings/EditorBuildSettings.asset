@@ -5,7 +5,10 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
-    path: Assets/Scenes/SampleScene.unity
+  - enabled: 0
+    path: Assets/Scenes/samplescene.unity
     guid: cbfe36cfddfde964d9dfce63a355d5dd
+  - enabled: 1
+    path: Assets/_Hell Shrine/Scenes/Hell Shrine.unity
+    guid: 731c58e678346864687c0de4530cfc14
   m_configObjects: {}
