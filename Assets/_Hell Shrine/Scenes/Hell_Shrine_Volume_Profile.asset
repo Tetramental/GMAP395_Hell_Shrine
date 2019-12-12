@@ -150,30 +150,30 @@ MonoBehaviour:
     max: 360
   skyIntensityMode:
     m_OverrideState: 1
-    m_Value: 1
+    m_Value: 0
   exposure:
-    m_OverrideState: 0
+    m_OverrideState: 1
     m_Value: 0
   multiplier:
-    m_OverrideState: 0
+    m_OverrideState: 1
     m_Value: 1
     min: 0
   upperHemisphereLuxValue:
-    m_OverrideState: 0
-    m_Value: 0.37319526
+    m_OverrideState: 1
+    m_Value: 0.37319523
     min: 0
   desiredLuxValue:
     m_OverrideState: 1
     m_Value: 1
   updateMode:
-    m_OverrideState: 0
+    m_OverrideState: 1
     m_Value: 1
   updatePeriod:
-    m_OverrideState: 0
+    m_OverrideState: 1
     m_Value: 0
     min: 0
   includeSunInBaking:
-    m_OverrideState: 0
+    m_OverrideState: 1
     m_Value: 0
   hdriSky:
     m_OverrideState: 1
